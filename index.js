@@ -16,13 +16,13 @@ app.get('/', (req, res) => {
         <h1>API TODO (Vũ Văn Nghĩa 20206205)</h1>
         <hr>
         <table>
-        <tr> <th>Method</th> <th>Description</th> <th>Link</th> </tr>
-        <tr> <td>GET</td> <td>Welcome</td> <td><a href='/'>'/'</a></td></tr>
-        <tr> <td>GET</td> <td>Get all jobs</td> <td><a href='/api/get_all_jobs'>'/api/get_all_jobs'</a></td></tr>
-        <tr> <td>GET</td> <td>GET job by ID</td> <td><a href='/api/get_job_by_id/:id'>'/api/get_job_by_id/:id'</a></td></tr>
-        <tr> <td>DELETE</td> <td>Delete job by ID</td> <td><a href='/api/delete_job_by_id/:id'>'/api/delete_job_by_id/:id'</a></td></tr>
-        <tr> <td>POST</td> <td>Add new job</td> <td><a href='/api/add_new_job'>'/api/add_new_job'</a></td></tr>
-        <tr> <td>PUT</td> <td>Edit job by ID</td> <td><a href='/api/edit_job_by_id/:id'>'/api/edit_job_by_id/:id'</a></td></tr>
+        <tr><th>Method</th> <th>Description</th> <th>Link</th> </tr>
+        <tr><td>GET</td><td>Welcome</td><td><a href='/'>'/'</a></td></tr>
+        <tr><td>GET</td><td>Get all jobs</td><td><a href='/api/get_all_jobs'>'/api/get_all_jobs'</a></td></tr>
+        <tr><td>GET</td><td>GET job by ID</td><td><a href='/api/get_job_by_id/:id'>'/api/get_job_by_id/:id'</a></td></tr>
+        <tr><td>DELETE</td><td>Delete job by ID</td><td><a href='/api/delete_job_by_id/:id'>'/api/delete_job_by_id/:id'</a></td></tr>
+        <tr><td>POST</td><td>Add new job</td><td><a href='/api/add_new_job'>'/api/add_new_job'</a></td></tr>
+        <tr><td>PUT</td><td>Edit job by ID</td><td><a href='/api/edit_job_by_id/:id'>'/api/edit_job_by_id/:id'</a></td></tr>
         </table>
         <hr>
     `);
